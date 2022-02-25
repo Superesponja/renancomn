@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php 
+//Template Name: Portfolio
+get_header();
+?>
         
         <!-- Introdução /-->
         <section class="introducao_interna">

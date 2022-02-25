@@ -48,10 +48,10 @@
                 </a>
                 <nav class="header_menu grid-12">
                     <ul>
-                        <li><a href="index.html" class="menu_ativo">Home</a></li>
-                        <li><a href="renanzices.html">Renanzices</a></li>
-                        <li><a href="portfolio.html">portfolio</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="/" class="menu_ativo">Home</a></li>
+                        <li><a href="/renanzices">Renanzices</a></li>
+                        <li><a href="/portfolio">portfolio</a></li>
+                        <li><a href="/sobre">Sobre</a></li>
                     </ul>
                 </nav>
             </div>

@@ -24,8 +24,13 @@
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsivo.css">
-        -->
-        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="css/style.css">-->
+
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
+
+
+
         <script> document.documentElement.classList.add("js");</script>
     </head>
 

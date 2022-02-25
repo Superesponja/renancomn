@@ -1,0 +1,325 @@
+/*
+Theme Name: Renan com N
+Theme URI: http://renancomn.com.br
+Author: Renan R. Santana
+Author URI: http://renancomn.com.br
+Description: Tema criado para o site do Renan, zica das galáxias.
+Version: 1.0
+*/
+
+@import 'css/reset.css';
+@import 'css/normalize.css';
+@import 'css/grid.css';
+@import 'css/portfolio.css';
+@import 'css/renanzices.css';
+@import 'css/sobre.css';
+/* @import 'css/responsivo.css'; */
+
+@font-face {
+    font-family: "Arkitech Round";
+    src: url("../meta/ArkitechRoundLight-ZqDl.ttf");
+}
+
+/* Estilos Gerais*/
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+/*imagens adaptáveis */
+    img {
+        max-width: 100%;
+        display: block;
+    }
+/* Header */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #323838;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header_menu ul li a {
+    color: #D9E0E6;    
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 0;
+}
+
+.header_menu ul li a.menu_ativo {
+    color:  #38783A;
+}
+.header_menu ul li a:hover {
+    color: #38783A;
+}
+/*Plano de fundo e cor*/
+.introducao {
+    width: 100%;
+    height: 500px;    
+    background: url("../img/logo-grd.svg") no-repeat center;    
+    background-color: #081C0E;
+    margin-top: 79px;
+    }
+
+.introducao h1 {
+    font-family: "Arkitech Round";
+    
+    font-size: 86px;
+    text-align: center;
+    color: #D9E0E6;
+    margin-top: 30px;
+}
+.introducao_interna {
+    width: 100%;
+    height: auto;        
+    background-color: #081C0E;
+    margin-top: 79px;
+}
+
+.introducao_interna h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Arkitech Round";
+    text-align: center;
+    color: #D9E0E6;
+    padding: 40px 0;
+}
+
+.introducao_interna h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #D9E0E6;
+    margin: 8px auto;
+}
+/*Botões*/
+.btn {
+    background-color: #323838;
+    
+    width: 220px;
+    height: 82px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;    
+    text-align: center;
+    margin-top: 60px;    
+}
+.btn a {
+    display: block;
+    color: #D9E0E6;    
+    width: 100%;
+    height: 100%;
+    padding-top: 23px;    
+}
+
+.btn:hover{
+    border: 3px solid #38783A;
+}
+.btn a:hover {
+    color:  #38783A;
+}
+
+.btn-link {
+    border: 3px solid  #081C0E;
+    padding: 10px 30px;
+    color:  #081C0E;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.btn-link:hover {
+        color: #38783A;
+        border-color: #38783A;
+}
+
+
+.direita {
+    float: right;
+}
+
+.subtitulo {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Arkitech Round";
+    text-align: center;
+    color: #081C0E;
+    margin-bottom: 30px;
+}
+
+.subtitulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #081C0E;
+    margin: 8px auto;
+}
+
+/* Renanzices*/
+.renanzices {
+    padding: 40px;    
+}
+
+.renanzices_lista li {
+    background: #D9E0E6;
+    text-align: center;
+}
+
+.renanzices_icone {
+    background: #081C0E;
+    
+}
+
+.renanzices_icone img{
+    margin: 0 auto;
+}
+
+.renanzices_lista h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: .1em;
+    margin-top: 16px;
+    color: #081C0E;
+}
+
+.renanzices_lista h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #081C0E;
+    margin: 2px auto;
+}
+
+.renanzices_lista p {
+    padding: 10px 20px 20px 20px;
+    color: #081C0E;
+}
+
+.call {
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 16px;
+    
+    color: #081C0E;
+}
+
+/* Portfólio*/
+.portfolio {
+    width: 100%;
+    background: #E0BA22;
+    padding: 40px 0;
+}
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+/* Rodapé */
+.footer {
+    width: 100%;
+    background: #323838;
+    color: #D9E0E6;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #D9E0E6;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+.footer h3::after {
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #D9E0E6;
+    margin: 6px 0 15px 0;
+}
+
+.footer_historia {
+    padding-right: 40px;
+}
+
+.footer_redes ul li {
+    display: inline-block;    
+    margin-right: 6px;
+}
+
+.footer_redes ul li a {
+    border: 3px solid #D9E0E6;
+    display: block;
+    padding: 6px;
+}
+
+.footer_redes ul li a:hover {
+    border-color: #38783A;
+}
+
+.copy {
+    width: 100%;
+    background: #081C0E;
+    padding: 20px 0;
+    color: #D9E0E6;
+}
+
+
+/* JAVASCRIPT */
+.js [data-slide] {
+    position: relative;
+}
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;    
+}
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .fadeInDown {
+    transform: translate3d(0,-40px,0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece {
+    visibility: hidden;
+    height: 0px;
+    position: absolute;
+}

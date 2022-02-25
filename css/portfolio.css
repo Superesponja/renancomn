@@ -1,0 +1,56 @@
+.portfolio_conteudo {            
+    background-color: #081C0e;
+    
+}
+
+.portfolio_conteudo h2 {
+    text-align: left;    
+    color: #081C0E;
+    display: block;
+    padding: 50px 10px;
+}   
+
+.subtitulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background:#D9E0E6;
+    margin: 8px auto;    
+}
+
+.portfolio_texto {
+    background:#D9E0E6;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.portfolio_icone {
+    background-color: #E0BA22;
+    text-align: center;
+    height: 140px;
+}
+
+.portfolio_conteudo p {    
+    
+    font-size: 18px;
+    line-height: 25px;
+    color: #D9E0E6;    
+    letter-spacing: .1em;
+    padding: 17px;
+    text-align: center;
+    height: 330px;
+    border: 3px solid #D9E0E6;
+    
+}
+
+.portfolio_conteudo .imagem {
+    background-color: #D9E0E6;    
+    height: 330px;
+    padding: 20px 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.separador {
+    padding-bottom: 40px;
+}

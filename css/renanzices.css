@@ -1,0 +1,101 @@
+
+.verde {
+    background: #081C0E;
+}
+
+.cinza {
+    background: #323838;
+}
+
+.manchete1 {
+    background: url("../img/renanzices/bolsoringa1.jpg") no-repeat center;    
+    height: 520px;
+    color: #D9E0E6;
+}
+
+.manchete2 {
+    background:  url("../img/renanzices/lula2.jpg");
+    height: 250px;
+    margin-bottom: 20px;
+    color: #D9E0E6;
+}
+
+
+
+.manchete3 {
+    background: url("../img/renanzices/terraplana3.png");
+    height: 250px;
+    margin-bottom: 20px;
+    color: #D9E0E6;    
+}
+
+
+.artigos h3, .artigos img {
+    float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+    width: 127px;
+}
+
+
+.manchete1 h2,.manchete2 h2, .manchete3 h2 {
+    padding: 5px;
+    font-size: 30px;
+    line-height: 45px;
+    color: #D9E0E6;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.manchete1 h2{
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.manchete1 h3, .manchete3 h3, .manchete2 h3, .artigos h3 {
+    padding: 5px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #D9E0E6;          
+}
+
+.artigos h2 {
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Arkitech Round";    
+    text-align: center;
+    color: #D9E0E6;
+    padding: 40px 0;
+}
+
+.artigos h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #D9E0E6;
+    margin: 2px auto;
+}
+
+.artigos ul li {    
+    margin-bottom: 20px;
+    min-height: 150px;
+}
+
+ul.separador {    
+    list-style: none;
+    padding: 0;
+    width: 100%;       
+}
+
+ul.separador li {
+    padding: .5em 0;
+    border-bottom: 1px solid #D9E0E6;    
+}
+
+.manchete1 a, .manchete2 a, .manchete3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+

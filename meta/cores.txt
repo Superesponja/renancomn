@@ -1,0 +1,8 @@
+#081C0E - Verde-Bandeira
+#323838 - Cinza (escuro)
+#D9E0E6 - Cinza (claro)
+#000000 - Preto
+#38783A - Verde secundário
+#BA9916 - Dourado (Secundário)
+#E0BA22 - Amarelo (primário)
+#FFFFFF - Branco

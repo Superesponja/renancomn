@@ -1,0 +1,105 @@
+.sobre_conteudo img {            
+    margin: 0 15px 2px 0;
+    display: inline;
+    float: left;
+    padding: 0 5px;
+}
+
+.sobre_conteudo p {    
+    font-size: 18px;
+    line-height: 25px;
+    color: #D9E0E6;    
+    letter-spacing: .1em;
+}
+
+.sobre_autor {        
+    padding-right: 40px;           
+}
+
+.sobre_projeto {        
+    padding-left: 40px;
+    padding-bottom: 40px;           
+}
+
+.sobre_conteudo h2 {
+    text-align: left;    
+    color: #E0BA22;
+}
+
+.sobre_conteudo h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #E0BA22;
+    margin: 14px 0;
+}
+
+
+/* FALE CONOSCO */
+.faleconosco {
+    padding: 40px 0;
+}
+.form_faleconosco label, textarea{
+    display: block;
+    color: #081C0E;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+
+}
+
+.form_faleconosco input, textarea{
+    display: block;
+    width: 100%;
+    border: 4px solid #081C0E;
+    color: #323838;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 14px;    
+}
+
+.form_faleconosco textarea {
+    height: 120px;
+}
+
+.faleconosco h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #0a081c;
+    font-weight: bold;
+}
+
+.faleconosco ul li {
+    margin-top: 8px;
+    display: inline-block;    
+    margin-right: 6px;
+}
+
+.faleconosco ul li a {
+    border: 3px solid #0a081c;
+    display: block;
+    padding: 6px;
+}
+
+.faleconosco ul li a:hover {
+    border-color: #38783A;
+}
+
+.faleconosco span {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    color: #323838;  
+}
+
+.urtimo-span {
+    margin-bottom: 40px;
+}
+
+.sobre_dados {
+    padding-left: 60px;
+}
+
